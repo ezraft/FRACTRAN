@@ -22,3 +22,11 @@ Task: write a program that takes two inputs in registers $2$ and $3$, and multip
 
 Code:
 ```5/2 5/3```
+
+## Fibonacci
+
+Task: write a one line program that takes one input in registers $23$, and returns the $n$-th Fibonacci number in register $2$.
+Note: we multiply the input by a fixed constant $C = 3\cdot13\cdot17 = 663.$
+
+Code:
+```455/39 1/13 51/34 51/85 1/17 2/7 221/23```
