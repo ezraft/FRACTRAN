@@ -30,3 +30,7 @@ Note: we multiply the input by a fixed constant $C = 3\cdot13\cdot17 = 663.$
 
 Code:
 ```455/39 1/13 51/34 51/85 1/17 2/7 221/23```
+
+## Modulo
+
+Task: write a program that takes two inputs in registers $2$ and $3,$ and returns the number in register $2$ modulo the number in register $3$.
