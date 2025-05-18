@@ -27,6 +27,12 @@ with open(sys.argv[1], 'r') as f:
 
 #parse program
 unfiltered_lines = asm.split("\n")
+removed_comments = []
+for x in unfiltered_lines:
+    if len(x) == 0 or x[0] == '#':
+        continue
+    removed_comments.append(x)
+unfiltered_lines = removed_comments
 prog_input = int(unfiltered_lines[0])
 instruction_lines = unfiltered_lines[1:]
 inst = [[[int(x) for x in ins.split(" ")[0].split('/')] +[int(ins.split(" ")[1])] for ins in line.split(",")] for line in instruction_lines]

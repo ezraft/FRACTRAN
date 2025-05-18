@@ -34,3 +34,7 @@ Code:
 ## Modulo
 
 Task: write a program that takes two inputs in registers $2$ and $3,$ and returns the number in register $2$ modulo the number in register $3$.
+
+## LCG (Linear Congruential Generator)
+
+Task: write a program that, given inputs $a, b, c, d$ in registers $2,3,5,7,$ iterates $x = (ax + b) \mod c$ $d$ times, where $x = 1$ initially.
