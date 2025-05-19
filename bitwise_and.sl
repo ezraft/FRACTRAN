@@ -4,7 +4,7 @@
 # the second argument will be in register 3
 # the number of bits total will be placed in register 7
 # registers 5,11, 13, 17, 19, 23, 29 will be kept as temporary
-# result of pops will be placed in 2
+# result will be placed in 2
 
 # first clone the number of instructions
 # line 1

@@ -1,5 +1,5 @@
-40831674912
-# a rework of stack.sl to support bitwise OR of two numbers
+979960197888
+# a rework of stack.sl to support bitwise XOR of two numbers
 # specification: the first argument will be stored in register 2
 # the second argument will be in register 3
 # the number of bits total will be placed in register 7
@@ -27,14 +27,14 @@
 # line 7
 2/169 7,1/1 8
 
-# if both bits in 11 and 13 are 1, then push a 1 into 17, else push a zero
+# if one of 11 and 13 are 1, then push a 1 into 17, else push a zero
 # line 8
 961/17 8,1/1 9
 # line 9
-17/31 9,11/13 10,1/1 10
+17/31 9,1/143 3,1/13 10,1/11 10,1/1 3
 # line 10
 # return to start
-17/11 3,1/1 3
+17/1 3
 
 # push result from 17 into 2
 # line 11
