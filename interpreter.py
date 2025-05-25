@@ -2,7 +2,7 @@ import sys
 
 # utilities
 small_prime_list = [2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59]
-
+sys.set_int_max_str_digits(10000000)
 # take number and return array of primes and multiplicities in factorization
 def get_info(num):
     prime_factors = {}
