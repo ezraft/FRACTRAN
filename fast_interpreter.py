@@ -93,7 +93,7 @@ while True:
         elif mn != 0:
             for x in prog_val.keys():
                 if x in denom.keys():
-                    prog_val[x] %= denom[x]
+                    prog_val[x] -= mn * denom[x]
             for x in numer.keys():
                 if x in prog_val.keys():
                     prog_val[x] += mn * numer[x]
